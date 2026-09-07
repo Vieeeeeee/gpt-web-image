@@ -1,5 +1,7 @@
 # GPT Web Image
 
+[简体中文](README.zh-CN.md) | English
+
 A Codex Skill that generates images through ChatGPT Web in connected Google Chrome. It delegates each requested output to an isolated `gpt-5.6-luna` subagent, protects ChatGPT's synchronized draft state with a preparation lock, and exports completed images to local files.
 
 ## Prerequisites
